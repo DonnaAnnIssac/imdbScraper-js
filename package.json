@@ -1,0 +1,31 @@
+{
+  "name": "imdbscraper",
+  "version": "1.0.0",
+  "description": "A basic web scraper that fetches info about top rated movies from IMDb",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DonnaAnnIssac/imdbScraper-js.git"
+  },
+  "keywords": [
+    "scraper"
+  ],
+  "author": "Donna Ann Issac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DonnaAnnIssac/imdbScraper-js/issues"
+  },
+  "homepage": "https://github.com/DonnaAnnIssac/imdbScraper-js#readme"
+}
